@@ -1,0 +1,6 @@
+employee_id,name,role,salary,department
+101,Rahul,Python Intern,20000,Engineering
+102,Priya,Full Stack,60000,Engineering
+103,Arjun,Data Science,70000,Data
+104,Meena,AI/ML,80000,AI
+105,Kiran,Gen AI,90000,AI
