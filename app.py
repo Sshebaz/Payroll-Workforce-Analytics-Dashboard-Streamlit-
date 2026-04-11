@@ -8,7 +8,7 @@ import os
 
 st.set_page_config(page_title="Payroll Dashboard", layout="wide")
 
-st.title("Payroll & Workforce Analytics Dashboard")
+st.title("📊 Payroll & Workforce Analytics Dashboard")
 
 
 # Load Data
@@ -35,7 +35,7 @@ tasks.columns = tasks.columns.str.strip().str.lower()
 
 # Sidebar Filter
 
-st.sidebar.header("Filters")
+st.sidebar.header("🔍 Filters")
 
 department_filter = st.sidebar.selectbox(
     "Select Department",
@@ -75,9 +75,9 @@ total_salary = df["salary"].sum()
 avg_salary = df["salary"].mean()
 avg_attendance = df["days_present"].mean()
 
-col1.metric("Total Salary", f"{total_salary}")
-col2.metric("Avg Salary", f"{round(avg_salary,2)}")
-col3.metric("Avg Attendance", f"{round(avg_attendance,1)}")
+col1.metric("💰 Total Salary", f"{total_salary}")
+col2.metric("📊 Avg Salary", f"{round(avg_salary,2)}")
+col3.metric("📅 Avg Attendance", f"{round(avg_attendance,1)}")
 
 
 # Charts Section
