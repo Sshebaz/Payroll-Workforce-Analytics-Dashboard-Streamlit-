@@ -1,6 +1,6 @@
-employee_id,name,role,base_salary,days_present,leaves,attendance_bonus,leave_penalty,total_tasks,task_bonus,salary,department
-101,Rahul,Python Intern,20000,22,2,11000,600,2,2000,32400,Engineering
-102,Priya,Full Stack,60000,20,4,10000,1200,1,1000,69800,Engineering
-103,Arjun,Data Science,70000,23,1,11500,300,1,1000,82200,Data
-104,Meena,AI/ML,80000,21,3,10500,900,1,1000,90600,AI
-105,Kiran,Gen AI,90000,24,0,12000,0,1,1000,103000,AI
+employee_id,name,role,base_salary,days_present,leaves,attendance_bonus,leave_penalty,total_tasks,task_bonus,salary,department,date
+101,Rahul,Python Intern,20000,22,2,11000,600,2,2000,32400,Engineering,2024-01-31
+102,Priya,Full Stack,60000,20,4,10000,1200,1,1000,69800,Engineering,2024-02-29
+103,Arjun,Data Science,70000,23,1,11500,300,1,1000,82200,Data,2024-03-31
+104,Meena,AI/ML,80000,21,3,10500,900,1,1000,90600,AI,2024-04-30
+105,Kiran,Gen AI,90000,24,0,12000,0,1,1000,103000,AI,2024-05-31

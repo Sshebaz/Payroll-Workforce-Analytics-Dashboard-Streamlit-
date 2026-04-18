@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 streamlit
 pandas
 matplotlib
+=======
+streamlit
+pandas
+matplotlib
+>>>>>>> 9f5412e06ec0cee293df6728fe37d06c85069d7c
